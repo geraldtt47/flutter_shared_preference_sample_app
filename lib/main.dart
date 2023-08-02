@@ -7,7 +7,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your flutter application.
+  // This widget is the root of your flutter applications.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
