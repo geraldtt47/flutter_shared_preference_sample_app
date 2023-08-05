@@ -11,7 +11,7 @@ This is a Flutter app that is using shared_preference plugin.
 
 ## 3rd Party Services & Packages 
 We used the following services and packages for this project:
-1. [shared_preferences](https://pub.dev/packages/shared_preferences) - used to storing persistent data without disk write guarantees so this plugin must not be used for storing critical persistent data.
+1. [shared_preferences](https://pub.dev/packages/shared_preferences) - this package is used to storing persistent data without disk write guarantees so this plugin must not be used for storing critical persistent data.
 
 ## How to update and add more content 
 Inorder to update content you have to update files inside lib/utils/
