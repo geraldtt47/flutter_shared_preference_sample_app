@@ -45,6 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 });
               },
             ),
+            const SizedBox(height: 16.0),
             ElevatedButton.icon(
               onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (_) => const NextScreen()));

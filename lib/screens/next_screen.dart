@@ -14,11 +14,13 @@ class _NextScreenState extends State<NextScreen> {
       appBar: AppBar(
         title: const Text('Next Screen'),
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: const [
-          Text('This is the next screen')
-        ],
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: const [
+            Text('This is the next screen.')
+          ],
+        ),
       ),
     );
   }
